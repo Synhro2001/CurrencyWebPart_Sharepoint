@@ -1,0 +1,51 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.currencyWall {
+    overflow: hidden;
+    padding: 2em;
+    color: "[theme:bodyText, default: #323130]";
+    color: var(--bodyText);
+    align-items: center;
+
+}
+
+.currencyInput {
+    float: left;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px 0 0 20px;
+    width: 70%;
+}
+
+.currencyButton {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 0; 
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.currencyDropDown {
+   
+    width: 100%;
+    z-index: 99;
+    background: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+    height: auto;
+    overflow: auto;
+}
+
+.currencyDropDownItem {
+    padding: 10px;
+    width: 100%;
+}
+

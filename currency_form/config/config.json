@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "currency-wall-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/currencyWall/CurrencyWallWebPart.js",
+          "manifest": "./src/webparts/currencyWall/CurrencyWallWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CurrencyWallWebPartStrings": "lib/webparts/currencyWall/loc/{locale}.js"
+  }
+}
